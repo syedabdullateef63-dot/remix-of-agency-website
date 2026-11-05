@@ -32,7 +32,7 @@ const Index: React.FC = () => {
         <ThemeSwitcher />
         <div className="max-w-[1380px] mx-auto px-6">
           <header className="relative flex w-full items-center justify-between py-4 border-b border-muted">
-            <a href="#hero" className="text-2xl md:text-4xl font-bold tracking-tight text-foreground">AUTOVITA</a>
+            <a href="#hero" className="text-2xl md:text-4xl font-bold tracking-tight text-foreground">AUTOPULSE AI</a>
             <div className="hidden md:block text-sm font-semibold text-foreground">AI Vehicle Health & Maintenance</div>
             <a href="#cta" className="px-3 py-2 bg-foreground text-background text-sm font-medium rounded-[4px] hover:opacity-80 transition-opacity mr-12 md:mr-16">Get started</a>
           </header>
@@ -149,10 +149,10 @@ const Index: React.FC = () => {
       <footer className="fixed bottom-0 left-0 right-0 py-6 bg-foreground text-background z-[-1]">
         <div className="max-w-[1380px] mx-auto px-6">
           <div className="flex justify-between items-center text-sm font-semibold">
-            <span className="text-[18px] font-bold tracking-tight">AUTOVITA</span>
+            <span className="text-[18px] font-bold tracking-tight">AUTOPULSE AI</span>
             <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="hover:opacity-70 transition-opacity">Back to Top</button>
           </div>
-          <div className="mt-6 text-sm opacity-70">© {new Date().getFullYear()} AutoVita · A mini project by Syed</div>
+          <div className="mt-6 text-sm opacity-70">© {new Date().getFullYear()} AutoPulse AI · A mini project by Syed</div>
         </div>
       </footer>
     </>
